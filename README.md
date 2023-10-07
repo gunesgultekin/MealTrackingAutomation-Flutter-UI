@@ -1,4 +1,4 @@
-# indasyemek
+# İndas Meal Tracking Automation
 
 A new Flutter project.
 
