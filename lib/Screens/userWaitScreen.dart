@@ -79,7 +79,7 @@ class _userWaitScreenState extends State<userWaitScreen> {
       print(e.toString());
     }
     if (deviceToken != null) {
-      print("--------------Device Token--------------" + deviceToken);
+      
     }
     return deviceToken;
   }
