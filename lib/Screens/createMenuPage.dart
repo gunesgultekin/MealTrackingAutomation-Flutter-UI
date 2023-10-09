@@ -36,7 +36,7 @@ class _createMenuPageState extends State<createMenuPage> {
       print(e.toString());
     }
     if (deviceToken != null) {
-      print("--------------Device Token--------------" + deviceToken);
+      
     }
     return deviceToken;
   }
@@ -53,7 +53,7 @@ class _createMenuPageState extends State<createMenuPage> {
     required String title,
     required String body,
   }) async {
-    // FirebaseMessaging.instance.subscribeToTopic("myTopic1");
+    
 
     String dataNotifications = '{ '
         ' "to" : "/topics/myTopic1" , '
@@ -68,7 +68,7 @@ class _createMenuPageState extends State<createMenuPage> {
       headers: <String, String>{
         'Content-Type': 'application/json',
         'Authorization':
-            'key= ${'AAAA5D5sHHE:APA91bE9pBJW7H2cp9GZEWHiXBpBnP9ObwjDypnxd7AvLvE_t1demyd349up_mkMBDEne2dcWd9rKMVIub7Wc89F7ncAc0iWxLk9RD9pHo1GGTHVLzuw-JX5TQODxOU5JYBFzPc8cqHv'}',
+            'key= ${'FIREBASE API KEY'}',
       },
       body: dataNotifications,
     );
@@ -105,13 +105,11 @@ class _createMenuPageState extends State<createMenuPage> {
           "status": "done"
         },
         "to": deviceTokens[i]
-
-        //"czrr_QppQeav51tElRBR22:APA91bHo_XvvNEVYhX3uVNoPsGERcGTK4_vFNfeh-zed2ggD4l2lcy0AEEjTaROS1gcYSx-6yAy3efHreu8OQ2-YwWB4u7DE8su2CmOyBM1qFU9tb_4cuZq1MEnXK2adKDDWSOUj8g8N"
       };
       final headers = {
         'content-type': 'application/json',
         'Authorization':
-            'key=AAAA5D5sHHE:APA91bGHceEI1EPSMzemfwCoS4hFemRFxkmKwWfYcEje9-oz6P_fAbIuR_J2HfpJsbyxur12nfuWylzVtd4MKLolfokixOnI6Y9J-Q_3Y-7iOvSSXY9k2yQkk-qbcrPCdhZLI4xK-oo3'
+            'key= FIREBASE API KEY'
       }; //
 
       final response = await http.post(Uri.parse(postUrl),
