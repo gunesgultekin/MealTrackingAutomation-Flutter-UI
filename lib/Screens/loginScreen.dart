@@ -36,7 +36,7 @@ class loginScreenState extends State<loginScreen> {
       print(e.toString());
     }
     if (deviceToken != null) {
-      //print("--------------Device Token--------------" + deviceToken);
+      
       await _notificationService.saveDevice(_emailController.text, deviceToken);
     }
     return deviceToken;
