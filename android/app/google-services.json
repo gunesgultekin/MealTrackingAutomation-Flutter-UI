@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "980299816049",
+    "project_number": "---",
     "project_id": "indasyemek-4a80c",
-    "storage_bucket": "indasyemek-4a80c.appspot.com"
+    "storage_bucket": "---.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:980299816049:android:cbfd158aa080c273340fd0",
+        "mobilesdk_app_id": "---",
         "android_client_info": {
           "package_name": "com.example.indasyemek"
         }
       },
       "oauth_client": [
         {
-          "client_id": "980299816049-ft55l20ff5lcjf1lbodkc4daffch7jql.apps.googleusercontent.com",
+          "client_id": "---",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA7zVhMAs58sBQ6yPLkCx9jN8rwus8bwyk"
+          "current_key": "---"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "980299816049-ft55l20ff5lcjf1lbodkc4daffch7jql.apps.googleusercontent.com",
+              "client_id": "---",
               "client_type": 3
             }
           ]
