@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 import '../Authorization.dart';
 
 class authService {
-  String adminUUID = "ORtDUixZsaVohUE40nukpGwnSj92";
+  String adminUUID = "---";
 
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
   User? get currentUser => _firebaseAuth.currentUser;
