@@ -70,12 +70,11 @@ class _updateMenuPageState extends State<updateMenuPage> {
         },
         "to": deviceTokens[i]
 
-        //"czrr_QppQeav51tElRBR22:APA91bHo_XvvNEVYhX3uVNoPsGERcGTK4_vFNfeh-zed2ggD4l2lcy0AEEjTaROS1gcYSx-6yAy3efHreu8OQ2-YwWB4u7DE8su2CmOyBM1qFU9tb_4cuZq1MEnXK2adKDDWSOUj8g8N"
       };
       final headers = {
         'content-type': 'application/json',
         'Authorization':
-            'key=AAAA5D5sHHE:APA91bE9pBJW7H2cp9GZEWHiXBpBnP9ObwjDypnxd7AvLvE_t1demyd349up_mkMBDEne2dcWd9rKMVIub7Wc89F7ncAc0iWxLk9RD9pHo1GGTHVLzuw-JX5TQODxOU5JYBFzPc8cqHv'
+            'key=FIREBASE API KEY'
       };
 
       final response = await http.post(Uri.parse(postUrl),
