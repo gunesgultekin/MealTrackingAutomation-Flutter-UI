@@ -19,7 +19,6 @@ class foodService {
       String? token = preferences.getString("token");
       var url = Uri.parse(
           "https://10.0.2.2:7239/yemekListesi/addToDb?corba=${corba}&yemek1=${yemek1}&yemek2=${yemek2}&meze=${meze}&tatli=${tatli}");
-      //"http://yemek.omeryilmaz.info/yemekListesi/addToDb?corba=${corba}&yemek1=${yemek1}&yemek2=${yemek2}&meze=${meze}&tatli=${tatli}");
       var response = await http.post(url, headers: {
         'Content-Type': 'application/json',
         'Authorization': 'Bearer ${token}',
